@@ -106,39 +106,42 @@ The confusion matrix was used to analyze the classification results of each mode
 
 ### **Linear Regression – Confusion Matrix:**
 
-TP =  
-TN =  
-FP =  
-FN =  
+TP =  595
+TN =  140
+FP =  86
+FN =  214
 
 ### **Logistic Regression – Confusion Matrix:**
 
-TP =  
-TN =  
-FP =    
-FN =  
+TP =  716
+TN =  19
+FP =  10
+FN =  290
 
 ### **Neural Network – Confusion Matrix:**
 
-TP =  
-TN =  
-FP =  
-FN =  
+TP =  538
+TN =  13
+FP =  10
+FN =  215
 
 ### 8.3 ROC–AUC Score
 The ROC–AUC score measures the ability of a model to distinguish between spam and ham emails.
 
-#### **Linear Regression ROC–AUC:**
+### **Linear Regression ROC–AUC:**
 ROC–AUC Score = 
 Interpretation:
 
-#### **Logistic Regression ROC–AUC**
+### **Logistic Regression ROC–AUC**
 ROC–AUC Score = 
 Interpretation:
 
-#### **Neural Network ROC–AUC**
+### **Neural Network ROC–AUC**
 ROC–AUC Score = 
 Interpretation:
+
+### 8.4 Accuracy
+
 
 ## 9. Results 
 ### 9.1 Linear Regression
