@@ -107,15 +107,21 @@ The confusion matrix was used to analyze the classification results of each mode
 ### **Linear Regression – Confusion Matrix:**
 
 TP =  595
+
 TN =  140
+
 FP =  86
+
 FN =  214
 
 ### **Logistic Regression – Confusion Matrix:**
 
 TP =  716
+
 TN =  19
+
 FP =  10
+
 FN =  290
 
 ### **Neural Network – Confusion Matrix:**
