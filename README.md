@@ -53,3 +53,55 @@ Key characteristics:
 Simple baseline model
 
 Not naturally designed for classification tasks
+
+## **5.2 Logistic Regression Model:**
+
+Logistic Regression was used as a classification model that estimates the probability of an email being spam.
+
+Key characteristics:
+
+Designed for binary classification
+
+Performs well with high-dimensional text data
+
+Produces interpretable probability scores
+
+## **5.3 Deep Learning Model (Neural Network):**
+
+A deep learning-based neural network was implemented to capture complex patterns in email text.
+
+Model architecture (example):
+
+Embedding layer
+
+One or more hidden dense layers
+
+Output layer with sigmoid activation
+
+Advantages:
+
+Learns non-linear relationships
+
+Captures semantic patterns in text
+
+# 6. Model Evaluation
+## **6.1 Confusion Matrix:**
+
+The confusion matrix was used to analyze the classification results of each model.
+
+Definitions:
+
+True Positives (TP): Spam correctly identified
+
+True Negatives (TN): Ham correctly identified
+
+False Positives (FP): Ham incorrectly identified as spam
+
+False Negatives (FN): Spam incorrectly identified as ham
+
+## **Linear Regression – Confusion Matrix:**
+
+TP =  
+TN =  
+FP =  
+FN =  
