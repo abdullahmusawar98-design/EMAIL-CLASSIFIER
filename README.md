@@ -21,8 +21,24 @@ The dataset used in this project contains labeled email messages.
 
 https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv
 
-## **🔑 Key Features:**
+## ** 4 . 🔑 Key Features:**
 - 📩 **Email Classification**: Predicts whether an email is spam or not.
 - 📊 **CountVectorizer** for text feature extraction.
 - 🎯 **High accuracy** of 97.13%.
 - 🖼️ Confusion matrix visualization to evaluate model performance.
+
+. Data Preprocessing
+
+The following preprocessing steps were applied to the email text:
+
+Conversion to lowercase
+
+Removal of punctuation and special characters
+
+Removal of stop words
+
+Tokenization
+
+Feature extraction using TF-IDF Vectorization (for machine learning models)
+
+For the deep learning model, text was converted into sequences using tokenization and padding.
