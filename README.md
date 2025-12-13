@@ -5,12 +5,10 @@ Email spam detection is an important application of machine learning and natural
 
 This project focuses on classifying emails as Spam or Ham (Not Spam) using both traditional machine learning models and deep learning techniques.
 
-2. Problem Statement
+## 2. Problem Statement
 
-Explain what exact problem you are solving and why it matters.
+Email spam has become a major challenge in digital communication systems. Spam emails not only waste users’ time but also pose serious security threats such as phishing and malware attacks. Manual filtering techniques are inefficient and unreliable. Therefore, there is a strong need for an automated email classification system that can accurately distinguish between spam and legitimate emails using machine learning and deep learning techniques.
 
-Example:
-Spam emails waste time, pose security risks, and reduce productivity. Manual filtering is inefficient, motivating the need for automated classification systems.
 ## 3. Objectives
 
 
@@ -142,7 +140,20 @@ Interpretation:
 ROC–AUC Score = 
 Interpretation:
 
-## 9. Future Enhancements
+## 9. Results 
+### 9.1 Linear Regression
+
+
+
+### 9.2 Logistic Regression
+
+
+
+### 9.3 Deep Learning(Neural Network)
+
+
+
+## 10. Future Enhancements
 
 -  **TF-IDF**: Implementing TF-IDF for feature extraction instead of simple word counts.
 -  **Additional Classifiers**: Try SVM or Random Forest for performance comparison.
