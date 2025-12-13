@@ -1,1 +1,1 @@
-# EMAIL-CLASSIFIER
+# **📧 Spam Email Classifier**
