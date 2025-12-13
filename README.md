@@ -5,3 +5,18 @@ Email spam detection is an important application of machine learning and natural
 
 This project focuses on classifying emails as Spam or Ham (Not Spam) using both traditional machine learning models and deep learning techniques.
 
+# 2. Objectives
+
+The objectives of this project are:
+
+To build an automated email spam classification system
+
+To compare traditional machine learning models with deep learning models
+
+To evaluate model performance using Confusion Matrix and ROC–AUC score
+
+# 3. Dataset Description
+
+The dataset used in this project contains labeled email messages.
+
+https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv
