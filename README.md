@@ -27,7 +27,7 @@ https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv
 - 🎯 **High accuracy** of 97.13%.
 - 🖼️ Confusion matrix visualization to evaluate model performance.
 
-. Data Preprocessing
+# 5. Data Preprocessing
 
 The following preprocessing steps were applied to the email text:
 
@@ -42,3 +42,14 @@ Tokenization
 Feature extraction using TF-IDF Vectorization (for machine learning models)
 
 For the deep learning model, text was converted into sequences using tokenization and padding.
+
+# 5. Models Implemented
+5.1 Linear Regression Model
+
+Linear Regression was implemented as a baseline approach. Since it produces continuous outputs, a threshold value was applied to classify emails into spam or ham.
+
+Key characteristics:
+
+Simple baseline model
+
+Not naturally designed for classification tasks
