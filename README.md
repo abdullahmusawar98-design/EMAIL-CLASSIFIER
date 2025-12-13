@@ -136,14 +136,17 @@ The ROC–AUC score measures the ability of a model to distinguish between spam 
 
 ### **Linear Regression ROC–AUC:**
 ROC–AUC Score = 
+
 Interpretation:
 
 ### **Logistic Regression ROC–AUC**
 ROC–AUC Score = 
+
 Interpretation:
 
 ### **Neural Network ROC–AUC**
 ROC–AUC Score = 
+
 Interpretation:
 
 ### 8.4 Accuracy
