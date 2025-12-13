@@ -20,3 +20,9 @@ To evaluate model performance using Confusion Matrix and ROC–AUC score
 The dataset used in this project contains labeled email messages.
 
 https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv
+
+### **🔑 Key Features:**
+📩 **Email Classification**: Predicts whether an email is spam or not.
+📊 **CountVectorizer** for text feature extraction.
+🎯 **High accuracy** of 98.13%.
+🖼️ Confusion matrix visualization to evaluate model performance.
