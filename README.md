@@ -24,7 +24,5 @@ https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv
 ### **🔑 Key Features:**
 - 📩 **Email Classification**: Predicts whether an email is spam or not.
 - 📊 **CountVectorizer** for text feature extraction.
-- 🤖 **Multinomial Naive Bayes** used for training the model.
 - 🎯 **High accuracy** of 98.13%.
 - 🖼️ Confusion matrix visualization to evaluate model performance.
-- 💾 Model saved for future use as `nb_model.pkl`.
