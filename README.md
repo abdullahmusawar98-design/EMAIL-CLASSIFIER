@@ -157,7 +157,8 @@ The neural network was trained for a maximum of 50 epochs with batch size = 32. 
 ## Visualization of Results(Logistic Regression)
 
 **Confusion Matrix:** Visualize the confusion matrix for each model to analyze False Positives, False Negatives, True Positives, True Negatives.
-![Alt text](LOG 1.png)
+![Confusion Matrix](https://github.com/abdullahmusawar98-design/EMAIL-CLASSIFIER/blob/main/LOG%201.png)
+
 
 
 **ROC Curves:** Compare the Receiver Operating Characteristic (ROC) curve and AUC for each model.
