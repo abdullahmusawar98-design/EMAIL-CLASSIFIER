@@ -195,6 +195,36 @@ The neural network was trained for a maximum of 50 epochs with batch size = 32. 
 
 ![ROC-CURVE](https://github.com/abdullahmusawar98-design/EMAIL-CLASSIFIER/blob/main/DEEP%202.png)
 
+##  Comparitive Analysis
+**In this we have compared Accuracy & ROC Curve of Logistic Regression vs Decision Tree.**
+
+
+![Accuracy](https://github.com/abdullahmusawar98-design/EMAIL-CLASSIFIER/blob/main/COMP%201%201.png)
+
+
+
+![ROC-CURVE](https://github.com/abdullahmusawar98-design/EMAIL-CLASSIFIER/blob/main/COMP%201%202.png)
+
+
+**In this we have compared Confusion Matrix & ROC Curve of Logistic Regression vs Deep Learning.**
+
+
+![Accuracy](https://github.com/abdullahmusawar98-design/EMAIL-CLASSIFIER/blob/main/comp%202%20%201.png)
+
+
+
+![ROC-CURVE](https://github.com/abdullahmusawar98-design/EMAIL-CLASSIFIER/blob/main/COMP%202%202.png)
+
+
+**In this we have compared Confusion Matrix & ROC Curve of Decision Tree vs Deep Learning.**
+
+
+![Accuracy](https://github.com/abdullahmusawar98-design/EMAIL-CLASSIFIER/blob/main/comp%203%20%201.png)
+
+
+
+![ROC-CURVE](https://github.com/abdullahmusawar98-design/EMAIL-CLASSIFIER/blob/main/comp%203%20%202.png)
+
 
 ## Statistical Significance Tests
 
