@@ -184,9 +184,14 @@ Fine-tuning the Neural Network: Further tuning of the deep learning model could 
 
 Text Data Augmentation: Incorporating more data and feature engineering could improve model accuracy.
 
-Deployment: Future steps involve deploying the model in a production environment where it can classify incoming emails in real-time.
+**Deployment:** Future steps involve deploying the model in a production environment where it can classify incoming emails in real-time.
 
 ## References
+https://github.com/SimarjotKaur/Email-Classifier
+https://abhimishra91.github.io/prj_email/
+https://www.geeksforgeeks.org/machine-learning/understanding-logistic-regression/
+https://www.geeksforgeeks.org/machine-learning/decision-tree/
+https://www.geeksforgeeks.org/machine-learning/neural-networks-a-beginners-guide/
 
 
 
