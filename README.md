@@ -154,12 +154,31 @@ The neural network was trained for a maximum of 50 epochs with batch size = 32. 
 
 
 
-## Visualization of Results:
+## Visualization of Results(Logistic Regression)
 
-**Confusion Matrix:** Visualize the confusion matrix for each model to analyze false positives and false negatives.
+**Confusion Matrix:** Visualize the confusion matrix for each model to analyze False Positives, False Negatives, True Positives, True Negatives.
+![Alt text](LOG 1.png)
 
 
 **ROC Curves:** Compare the Receiver Operating Characteristic (ROC) curve and AUC for each model.
+
+
+## Visualization of Results(Decision Tree)
+
+**Confusion Matrix:** Visualize the confusion matrix for each model to analyze False Positives, False Negatives, True Positives, True Negatives.
+
+
+**ROC Curves:** Compare the Receiver Operating Characteristic (ROC) curve and AUC for each model.
+
+
+## Visualization of Results(Deep Learning)
+
+**Confusion Matrix:** Visualize the confusion matrix for each model to analyze False Positives, False Negatives, True Positives, True Negatives.
+
+
+**ROC Curves:** Compare the Receiver Operating Characteristic (ROC) curve and AUC for each model.
+
+
 
 
 ## Statistical Significance Tests
