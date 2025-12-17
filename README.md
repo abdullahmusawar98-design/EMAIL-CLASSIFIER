@@ -187,12 +187,6 @@ Text Data Augmentation: Incorporating more data and feature engineering could im
 **Deployment:** Future steps involve deploying the model in a production environment where it can classify incoming emails in real-time.
 
 ## References
-**https://github.com/SimarjotKaur/Email-Classifier**
-**https://abhimishra91.github.io/prj_email/**
-**https://www.geeksforgeeks.org/machine-learning/understanding-logistic-regression/**
-**https://www.geeksforgeeks.org/machine-learning/decision-tree/**
-**https://www.geeksforgeeks.org/machine-learning/neural-networks-a-beginners-guide/**
-
 [Link 1](https://github.com/SimarjotKaur/Email-Classifier)<br>
 [Link 2](https://abhimishra91.github.io/prj_email/)<br>
 [Link 3](https://www.geeksforgeeks.org/machine-learning/understanding-logistic-regression/)<br>
