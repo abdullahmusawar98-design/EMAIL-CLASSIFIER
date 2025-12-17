@@ -4,166 +4,134 @@
 With the increasing number of unsolicited and irrelevant emails, spam email detection has become a critical problem in information security. This project aims to develop a classification model to identify whether an email is spam or legitimate (ham). We aim to use both classical machine learning approaches and deep learning to classify these emails based on their content.
 
 ##  Objectives
+To build and evaluate models using Logistic Regression, Decision Trees, and Neural Networks.
 
+To perform hyperparameter tuning to optimize model performance.
 
-The objectives of this project are:
+To compare models using standard evaluation metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
 
-To build an automated email spam classification system
+##  Dataset Description
+The dataset used for this project is the Spam Email Message Collection Dataset. It is a collection of SMS messages that are labeled as either spam or ham. This dataset is widely used for text classification tasks, specifically for spam detection.
 
-To compare traditional machine learning models with deep learning models
+**Dataset Source:** 
+The dataset is available IN Repository.
 
-To evaluate model performance using Confusion Matrix and ROC–AUC score
+**Size:**
 
-## 4. Dataset Description
+The dataset consists of 5,574 messages, each labeled as either spam or ham.
 
-The dataset used in this project contains labeled email messages.
+**Number of features:** There are two main columns in the dataset:
 
-https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv
+**class:** The label indicating whether the message is spam (1) or ham (0).
 
-## 5 . 🔑 Key Features
-- 📩 **Email Classification**: Predicts whether an email is spam or not.
-- 📊 **CountVectorizer** for text feature extraction.
-- 🎯 **High accuracy** of 97.13%.
-- 🖼️ Confusion matrix visualization to evaluate model performance.
+message: The content of the Email message, which needs to be classified.
 
-## 6. Data Preprocessing
+**Features:**
 
-The following preprocessing steps were applied to the email text:
+**class (Target variable):**
 
-Conversion to lowercase
+**ham:** Legitimate messages (non-spam).
 
-Removal of punctuation and special characters
+**spam:** Unsolicited messages (spam).
 
-Removal of stop words
+**message (Input feature):**
+The actual Email Message content that needs to be classified as either spam or ham. This text data is unstructured and needs to be converted into a numerical format (via vectorization) to be used for model training.
 
-Tokenization
+##  Preprocessing
+**Text Cleaning:**
 
-Feature extraction using TF-IDF Vectorization (for machine learning models)
+Removed unnecessary characters, digits, and punctuation marks from the text messages.
 
-For the deep learning model, text was converted into sequences using tokenization and padding.
+Removed stopwords (common words like “the”, “is”, etc.) that do not contribute significantly to the meaning of the text.
 
-## 7. Models Implemented
-### **7.1 Linear Regression Model:**
+Converted all text to lowercase to standardize the data.
 
-Linear Regression was implemented as a baseline approach. Since it produces continuous outputs, a threshold value was applied to classify emails into spam or ham.
+**Text Vectorization:**
 
-Key characteristics:
+Used TF-IDF (Term Frequency-Inverse Document Frequency) to convert the text messages into numerical features.
 
-Simple baseline model
+TF-IDF helps represent the importance of a word in a document relative to the entire corpus. This transformation converts the messages into a matrix of numerical values that can be used by machine learning models.
 
-Not naturally designed for classification tasks
+The max_features=5000 parameter limits the number of features to 5000 based on the highest importance words.
 
-### **7.2 Logistic Regression Model:**
+**Label Encoding:**
 
-Logistic Regression was used as a classification model that estimates the probability of an email being spam.
+The labels (ham and spam) were encoded into numerical values (ham = 0, spam = 1) using LabelEncoder to make them compatible with machine learning algorithms.
 
-**Key characteristics:**
+##  Methodology
+## Classical Machine Learning Approaches Used
 
-Designed for binary classification
+**Logistic Regression:**
 
-Performs well with high-dimensional text data
+Logistic Regression is a statistical model commonly used for binary classification tasks. It predicts the probability of an instance belonging to a particular class (in this case, spam or ham).
 
-Produces interpretable probability scores
+**Hyperparameter Tuning:**
 
-### **7.3 Deep Learning Model (Neural Network):**
+GridSearchCV was used to perform hyperparameter tuning for the Logistic Regression model. It explored different values for the regularization parameter (C) and solver options (liblinear and saga) to find the best-performing configuration.
 
-A deep learning-based neural network was implemented to capture complex patterns in email text.
+**C:** The regularization parameter that controls the trade-off between fitting the model and penalizing large coefficients. A smaller value indicates stronger regularization, and a larger value indicates weaker regularization.
 
-Model architecture (example):
+**solver:** Optimization algorithm used to fit the logistic regression model. liblinear is suitable for small datasets, and saga is more efficient for large datasets.
 
-Embedding layer
+**Decision Tree Classifier:**
 
-One or more hidden dense layers
+A Decision Tree is a tree-like structure used for classification tasks. It splits the data at each node based on the feature that best separates the data.
 
-Output layer with sigmoid activation
+**Hyperparameter Tuning:**
 
-**Advantages:**
+The GridSearchCV method was used to tune several hyperparameters:
 
-Learns non-linear relationships
+**max_depth:** The maximum depth of the tree. A deeper tree can capture more complexity, but it might overfit the data.
 
-Captures semantic patterns in text
+**min_samples_split:** The minimum number of samples required to split an internal node.
 
-## 8. Model Evaluation
-### **8.1 Confusion Matrix:**
+**min_samples_leaf:** The minimum number of samples required to be at a leaf node.
 
-The confusion matrix was used to analyze the classification results of each model.
+**criterion:** The function to measure the quality of a split. gini is the default method, but entropy can also be used for calculating splits based on information gain.
 
-**Definitions:**
+Evaluation Metrics for Classical ML:
 
-**True Positives (TP):** Spam correctly identified
+**Accuracy:** Measures the percentage of correctly predicted instances.
 
-**True Negatives (TN):** Ham correctly identified
+**Precision:** Measures how many of the predicted positive instances were actually positive.
 
-**False Positives (FP):** Ham incorrectly identified as spam
+**Recall:** Measures how many of the actual positive instances were correctly identified.
 
-**False Negatives (FN):** Spam incorrectly identified as ham
+**F1-Score:** The harmonic mean of precision and recall, used when there is an imbalance between the classes.
 
-### **Linear Regression – Confusion Matrix:**
+**Confusion Matrix:** A matrix showing the number of true positives, true negatives, false positives, and false negatives.
 
-TP =  595
+##  Deep Learning Approach Used
 
-TN =  140
+**Neural Network (Deep Learning):**
 
-FP =  86
+A Neural Network (also known as a Multilayer Perceptron) is a deep learning model that consists of multiple layers (input, hidden, and output) for learning complex patterns from the data.
 
-FN =  214
+**Architecture:**
 
-### **Logistic Regression – Confusion Matrix:**
+**Input Layer:** The input layer has neurons corresponding to each feature in the dataset (5000 features after TF-IDF).
 
-TP =  716
+**Hidden Layers:** The network has two hidden layers with ReLU (Rectified Linear Unit) activation, which is commonly used in deep learning due to its non-linear nature and computational efficiency.
 
-TN =  19
+**Dropout Layers:** Dropout layers were added to prevent overfitting by randomly setting a fraction of the input units to 0 at each update during training time.
 
-FP =  10
+**Output Layer:** A single neuron with Sigmoid activation is used for binary classification, where the output represents the probability of the message being spam.
 
-FN =  290
+**Hyperparameter Tuning:**
 
-### **Neural Network – Confusion Matrix:**
+**Optimization:** The Adam optimizer was used for training the neural network, as it adapts the learning rate based on the data.
 
-TP =  538
-TN =  13
-FP =  10
-FN =  215
+**Loss Function:** Binary Cross-Entropy was used as the loss function for binary classification tasks (spam vs. ham).
 
-### 8.3 ROC–AUC Score
-The ROC–AUC score measures the ability of a model to distinguish between spam and ham emails.
+**Early Stopping:** An EarlyStopping callback was used to stop the training if the validation loss does not improve for a certain number of epochs, which helps to prevent overfitting.
 
-### **Linear Regression ROC–AUC:**
-ROC–AUC Score = 
+**Evaluation Metrics for Deep Learning:**
 
-Interpretation:
+**Accuracy:** Measures how well the model classifies the messages into correct categories (spam or ham).
 
-### **Logistic Regression ROC–AUC**
-ROC–AUC Score = 
+**Confusion Matrix:** Displays the counts of true positives, false positives, true negatives, and false negatives for the deep learning model.
 
-Interpretation:
+**ROC Curve:** The Receiver Operating Characteristic (ROC) curve compares the true positive rate with the false positive rate at various classification thresholds. The AUC (Area Under Curve) metric indicates how well the model can distinguish between the two classes.
 
-### **Neural Network ROC–AUC**
-ROC–AUC Score = 
-
-Interpretation:
-
-### 8.4 Accuracy
-
-
-## 9. Results 
-### 9.1 Linear Regression
-
-
-
-### 9.2 Logistic Regression
-
-
-
-### 9.3 Deep Learning(Neural Network)
-
-
-
-## 10. Future Enhancements
-
--  **TF-IDF**: Implementing TF-IDF for feature extraction instead of simple word counts.
--  **Additional Classifiers**: Try SVM or Random Forest for performance comparison.
--  **Real-time Classification**: Integrate with email clients for real-time spam detection.
--  **Phishing Detection**: Enhance to detect phishing emails using additional features like email headers.
-
-
+**Model Training:**
+The neural network was trained for a maximum of 50 epochs with batch size = 32. The model used dropout layers for regularization, and the training stopped early if there was no improvement in the validation loss for 3 consecutive epochs.
