@@ -1,15 +1,9 @@
 # 📧 Spam Email Classifier
-## 1. Introduction
+##  Introduction
+##  Problem Statement
+With the increasing number of unsolicited and irrelevant emails, spam email detection has become a critical problem in information security. This project aims to develop a classification model to identify whether an email is spam or legitimate (ham). We aim to use both classical machine learning approaches and deep learning to classify these emails based on their content.
 
-Email spam detection is an important application of machine learning and natural language processing. Spam emails can contain advertisements, misleading content, or malicious links. Manual filtering is inefficient, therefore automated classification systems are required to identify spam emails accurately.
-
-This project focuses on classifying emails as Spam or Ham (Not Spam) using both traditional machine learning models and deep learning techniques.
-
-## 2. Problem Statement
-
-Email spam has become a major challenge in digital communication systems. Spam emails not only waste users’ time but also pose serious security threats such as phishing and malware attacks. Manual filtering techniques are inefficient and unreliable. Therefore, there is a strong need for an automated email classification system that can accurately distinguish between spam and legitimate emails using machine learning and deep learning techniques.
-
-## 3. Objectives
+##  Objectives
 
 
 The objectives of this project are:
