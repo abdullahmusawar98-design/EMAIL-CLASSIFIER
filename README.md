@@ -157,11 +157,15 @@ The neural network was trained for a maximum of 50 epochs with batch size = 32. 
 ## Visualization of Results(Logistic Regression)
 
 **Confusion Matrix:** Visualize the confusion matrix for each model to analyze False Positives, False Negatives, True Positives, True Negatives.
+
+
 ![Confusion Matrix](https://github.com/abdullahmusawar98-design/EMAIL-CLASSIFIER/blob/main/LOG%201.png)
 
 
-
 **ROC Curves:** Compare the Receiver Operating Characteristic (ROC) curve and AUC for each model.
+
+
+![ROC-CURVE](https://github.com/abdullahmusawar98-design/EMAIL-CLASSIFIER/blob/main/LOG%202.png)
 
 
 ## Visualization of Results(Decision Tree)
@@ -169,7 +173,13 @@ The neural network was trained for a maximum of 50 epochs with batch size = 32. 
 **Confusion Matrix:** Visualize the confusion matrix for each model to analyze False Positives, False Negatives, True Positives, True Negatives.
 
 
+![Confusion Matrix](https://github.com/abdullahmusawar98-design/EMAIL-CLASSIFIER/blob/main/DEC%201.png)
+
+
 **ROC Curves:** Compare the Receiver Operating Characteristic (ROC) curve and AUC for each model.
+
+
+![ROC-CURVE](https://github.com/abdullahmusawar98-design/EMAIL-CLASSIFIER/blob/main/DEC%202.png)
 
 
 ## Visualization of Results(Deep Learning)
@@ -177,9 +187,13 @@ The neural network was trained for a maximum of 50 epochs with batch size = 32. 
 **Confusion Matrix:** Visualize the confusion matrix for each model to analyze False Positives, False Negatives, True Positives, True Negatives.
 
 
+![Confusion Matrix](https://github.com/abdullahmusawar98-design/EMAIL-CLASSIFIER/blob/main/DEEP%201.png)
+
+
 **ROC Curves:** Compare the Receiver Operating Characteristic (ROC) curve and AUC for each model.
 
 
+![ROC-CURVE](https://github.com/abdullahmusawar98-design/EMAIL-CLASSIFIER/blob/main/DEEP%202.png)
 
 
 ## Statistical Significance Tests
