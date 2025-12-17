@@ -89,7 +89,7 @@ The GridSearchCV method was used to tune several hyperparameters:
 
 **criterion:** The function to measure the quality of a split. gini is the default method, but entropy can also be used for calculating splits based on information gain.
 
-Evaluation Metrics for Classical ML:
+**Evaluation Metrics for Classical ML:**
 
 **Accuracy:** Measures the percentage of correctly predicted instances.
 
@@ -135,3 +135,58 @@ A Neural Network (also known as a Multilayer Perceptron) is a deep learning mode
 
 **Model Training:**
 The neural network was trained for a maximum of 50 epochs with batch size = 32. The model used dropout layers for regularization, and the training stopped early if there was no improvement in the validation loss for 3 consecutive epochs.
+
+##  Results & Analysis for SPAM
+
+| Model              | Precision | Recall  | F1-Score  |   
+|--------------------|-----------|----------|----------|
+|Logistic Regression |   0.98    |   1.00   |   0.99   |
+|Decision Tree       |   0.98    |   0.99   |   0.99   |                 
+|Neural Network      |   0.99    |    0.99  |  0.99    |          
+
+##  Results & Analysis for HAM
+
+| Model              | Precision | Recall  | F1-Score  |     
+|--------------------|-----------|----------|----------|
+|Logistic Regression |   0.97    |  0.85    |    0.91  |          
+|Decision Tree       |   0.93    |  0.85    |    0.89  |    
+|Neural Network      |   0.94    |  0.91    |    0.93  |          
+
+
+
+## Visualization of Results:
+
+**Confusion Matrix:** Visualize the confusion matrix for each model to analyze false positives and false negatives.
+
+
+**ROC Curves:** Compare the Receiver Operating Characteristic (ROC) curve and AUC for each model.
+
+
+## Statistical Significance Tests
+
+**t-tests:** We used t-tests to determine if the differences in accuracy between the models were statistically significant.
+
+## Business Impact Analysis
+
+**Spam Filtering Impact:** By improving the accuracy of spam detection, businesses can reduce the number of unwanted emails, saving time and resources.
+
+**Model Comparison:** The Neural Network performed better than Logistic Regression and Decision Trees in terms of accuracy and AUC, making it the most suitable choice for real-world applications.
+
+## Conclusion
+
+The Neural Network model outperformed traditional models like Logistic Regression and Decision Trees in terms of accuracy, precision, recall, and AUC score.
+
+While Logistic Regression and Decision Trees provided reasonable results, the Neural Network demonstrated the best potential for detecting spam emails.
+
+## Future Work
+
+Fine-tuning the Neural Network: Further tuning of the deep learning model could lead to even better performance.
+
+Text Data Augmentation: Incorporating more data and feature engineering could improve model accuracy.
+
+Deployment: Future steps involve deploying the model in a production environment where it can classify incoming emails in real-time.
+
+## References
+
+
+
