@@ -11,7 +11,7 @@ To perform hyperparameter tuning to optimize model performance.
 To compare models using standard evaluation metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
 
 ##  Dataset Description
-The dataset used for this project is the Spam Email Message Collection Dataset. It is a collection of SMS messages that are labeled as either spam or ham. This dataset is widely used for text classification tasks, specifically for spam detection.
+The dataset used for this project is the Spam Email Message Collection Dataset. It is a collection of Email words that are labeled as either spam or ham. This dataset is widely used for text classification tasks, specifically for spam detection.
 
 **Dataset Source:** 
 The dataset is available IN Repository.
