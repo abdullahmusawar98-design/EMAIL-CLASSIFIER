@@ -1,4 +1,8 @@
 # 📧 Spam Email Classifier
+## Team Members
+**Abdullah Musawar(506873)**
+**Syed Muhammad Faizan Waris(504293)**
+
 ##  Introduction
 ##  Problem Statement
 With the increasing number of unsolicited and irrelevant emails, spam email detection has become a critical problem in information security. This project aims to develop a classification model to identify whether an email is spam or legitimate (ham). We aim to use both classical machine learning approaches and deep learning to classify these emails based on their content.
