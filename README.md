@@ -2,6 +2,12 @@
 
 **National University of Sciences & Technology**
 
+**School of Electrical Engineering & Computer Sciences**
+
+**Machine Learning CS-470**
+
+**End-Semester Project**
+
 ## Team Members
 
 **Abdullah Musawar(506873)**
