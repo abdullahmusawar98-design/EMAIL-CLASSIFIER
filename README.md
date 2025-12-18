@@ -244,9 +244,9 @@ While Logistic Regression and Decision Trees provided reasonable results, the Ne
 
 ## Future Work
 
-Fine-tuning the Neural Network: Further tuning of the deep learning model could lead to even better performance.
+**Fine-tuning the Neural Network:** Further tuning of the deep learning model could lead to even better performance.
 
-Text Data Augmentation: Incorporating more data and feature engineering could improve model accuracy.
+**Text Data Augmentation:** Incorporating more data and feature engineering could improve model accuracy.
 
 **Deployment:** Future steps involve deploying the model in a production environment where it can classify incoming emails in real-time.
 
