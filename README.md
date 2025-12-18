@@ -1,7 +1,7 @@
 # 📧 Spam Email Classifier
 ## Team Members
-**Abdullah Musawar(506873)**
-**Syed Muhammad Faizan Waris(504293)**
+** Abdullah Musawar(506873)**
+** Syed Muhammad Faizan Waris(504293)**
 
 ##  Introduction
 ##  Problem Statement
