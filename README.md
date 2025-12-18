@@ -1,6 +1,11 @@
 # 📧 Spam Email Classifier
+
+**National University of Sciences & Technology**
+
 ## Team Members
+
 **Abdullah Musawar(506873)**
+
 **Syed Muhammad Faizan Waris(504293)**
 
 ##  Introduction
